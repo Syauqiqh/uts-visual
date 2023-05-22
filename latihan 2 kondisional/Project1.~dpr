@@ -1,0 +1,13 @@
+program Project1;
+
+uses
+  Forms,
+  bobot in 'bobot.pas' {bobot};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(Tbobot, bobot);
+  Application.Run;
+end.
