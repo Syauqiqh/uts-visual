@@ -20,7 +20,6 @@ type
     DATABASE1: TMenuItem;
     LATIHSANUNCONDITIONAL1: TMenuItem;
     procedure LATIHAN11Click(Sender: TObject);
-    procedure LATIHAN21Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -39,11 +38,6 @@ uses Unit1;
 procedure Tmenu1.LATIHAN11Click(Sender: TObject);
 begin
  latihan_1.showModal;
-end;
-
-procedure Tmenu1.LATIHAN21Click(Sender: TObject);
-begin
-     latihan_mandiri.SHOWMODAL;
 end;
 
 end.
